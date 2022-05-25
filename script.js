@@ -2,13 +2,8 @@ const firstNumb = prompt('Enter first number');
 const operation = prompt("Enter operator");
 const secondNumb = prompt('Enter second number');
 
-console.log(firstNumb)
-console.log(secondNumb)
-
 const isNumb1 = isNaN(Number(firstNumb))
 const isNumb2 = isNaN(Number(secondNumb))
-console.log(isNumb1)
-console.log(isNumb2)
 
 if(isNumb1 === false && isNumb2 === false) {
 
