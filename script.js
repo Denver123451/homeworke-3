@@ -5,7 +5,7 @@ const secondNumb = prompt('Enter second number');
 const isNumb1 = isNaN(Number(firstNumb))
 const isNumb2 = isNaN(Number(secondNumb))
 
-if(isNumb1 === false && isNumb2 === false) {
+if(!isNumb1 && !isNumb2) {
 
     if (firstNumb !== null && operation !== null && secondNumb !== null) {
         if (operation === '+') {
